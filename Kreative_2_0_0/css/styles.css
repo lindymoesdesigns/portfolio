@@ -1876,7 +1876,7 @@ ol {
 }
 
 ul {
-    list-style: disc;
+    list-style: none;
 }
 
 li {
@@ -4940,6 +4940,7 @@ body.search-is-visible {
 .blog-post__thumb {
     display: block;
     margin-bottom: var(--vspace-1_5);
+    text-align: center;
 }
 
 .blog-post__thumb img {
@@ -5440,4 +5441,26 @@ body.search-is-visible {
     .comment-respond form {
         padding-top: var(--vspace-1);
     }
+}
+
+.cat-caption{
+    margin-top:-10px;
+    text-align: left;
+    margin-left:.5em;
+ 
+}
+
+.cat-comic{
+    text-align: center;
+    width: 100%;
+}
+
+.cat-com-img{
+    width: 120%;
+    margin-left:-1em;
+}
+
+.header-img{
+width:60%;
+text-align: center;
 }
